@@ -1,0 +1,22 @@
+{
+  "name": "metar-api",
+  "version": "1.0.0",
+  "description": "A rest api",
+  "main": "server.js",
+  "scripts": {
+    "test": "node src/server.js"
+  },
+  "author": "SparrowHe",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "color": "^3.1.2",
+    "colors": "^1.4.0",
+    "compression": "^1.7.4",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "metar": "^1.0.0"
+  }
+}
